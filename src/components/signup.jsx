@@ -12,7 +12,7 @@ let SignUp = () => {
   let [confirmPassword, setConfirmPassword] = useState("");
   let [email, setEmail] = useState("");
 
-  let user = useSelector(state => state); 
+  let user = useSelector(state => state.user); 
 
 
   return (
